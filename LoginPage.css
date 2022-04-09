@@ -1,0 +1,68 @@
+.Logintable{
+    background-image: url(diverse-businesspeople-having-meeting.jpg);
+    background-size: cover  ;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 410px;
+    border-radius: 15px;
+    box-sizing: border-box  ;
+
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp7537837.jpg);
+    background-size:cover;
+}
+.imggg{
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 128px;
+}
+.User-name ,.Password{
+    position:absolute;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 250px;
+    border-bottom: 2px solid rgb(11, 3, 88);
+    background: none;
+    padding: 5px;
+    color: black;
+}
+.User-name{
+    top: 140px;
+    left: 50px;
+}
+.Password{
+    top: 250px;
+    left: 50px;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+}
+input[value="Login"]{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    width: 150px;
+    height: 40px;
+    background: rgb(4, 4, 102);
+    border: none;
+    border-radius: 15px;
+    color: beige;
+    font-weight: bolder;
+
+    
+}
+input[value="Login"]:hover{
+        background: black;
+}
+.User-name:hover,.Password:hover{
+    border-bottom: 2px solid black;
+}
